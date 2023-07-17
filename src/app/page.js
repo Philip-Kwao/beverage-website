@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import CarouselSwiper from '@/components/CarouselSwiper'
 
 export default function Home() {
   return (
-    <main></main>
+    <main>
+      <CarouselSwiper />
+    </main>
   )
 }
