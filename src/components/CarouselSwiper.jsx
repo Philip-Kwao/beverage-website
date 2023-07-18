@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import SwiperItem from './SwiperItem';
+import { swipeDetails } from '@/data/SlideData'
 
 const CarouselSwiper = () => {
   return (
@@ -28,9 +29,20 @@ const CarouselSwiper = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-    <SwiperSlide>
-        <SwiperItem bgImg={'swiperBg'} />
-    </SwiperSlide>
+        {
+          swipeDetails.map((swipe) => (
+            <SwiperSlide>
+                <SwiperItem 
+                bgImg={swipe.bg} 
+                btnTitle={swipe.btnTitle}
+                image={swipe.image}
+                title1 = {swipe.title_1}
+                title2 = {swipe.title_2}
+                subtitle = {swipe.subtitle} 
+            />
+            </SwiperSlide>
+          ))
+        }
   </Swiper>
   )
 }
