@@ -26,10 +26,10 @@ const CarouselSwiper = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper min-h-[50vh]"
+        className="mySwiper"
       >
     <SwiperSlide>
-        <SwiperItem bgImg={''} />
+        <SwiperItem bgImg={'swiperBg'} />
     </SwiperSlide>
   </Swiper>
   )
