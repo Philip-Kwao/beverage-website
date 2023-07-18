@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
-import IMG1 from '@/assets/images/soft.png'
 
 import { motion } from 'framer-motion'
 

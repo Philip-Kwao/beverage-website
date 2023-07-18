@@ -19,7 +19,7 @@ export const swipeDetails = [
     subtitle: "something about correct partying",
     image: Image1,
     btnTitle: "shop now",
-    bg: "swiperBg1"
+    bg: "swiperBg"
     },
     {
     title_1: 'For Your Corporate',
@@ -27,7 +27,7 @@ export const swipeDetails = [
     subtitle: "something about correct partying",
     image: Image2,
     btnTitle: "shop now",
-    bg: "swiperBg1"
+    bg: "swiperBg2"
     },
     {
     title_1: 'We supply for',
@@ -43,6 +43,30 @@ export const swipeDetails = [
     subtitle: "something about correct partying",
     image: Image4,
     btnTitle: "shop now",
-    bg: "swiperBg1"
+    bg: "swiperBg3"
+    },
+]
+
+export const cardDetails = [
+    {
+        title:"We Sell Wholesale stuffs",
+        image: Image5,
+        para: "something about the title",
+        btnTitle: "Contact Us",
+        btnLink: ""
+    },
+    {
+        title:"Buy at a very cheaper rate",
+        image: Image6,
+        para: "something about the title",
+        btnTitle: "Contact Us",
+        btnLink: ""
+    },
+    {
+        title:"We are ever ready for your occassion",
+        image: Image7,
+        para: "something about the title",
+        btnTitle: "Contact Us",
+        btnLink: ""
     },
 ]
