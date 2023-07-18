@@ -4,7 +4,7 @@ import { cardDetails } from '@/data/SlideData'
 
 const ServiceItems = () => {
   return (
-    <div className='flex items-center justify-around my-6 flex-wrap'>
+    <div className='flex items-center justify-around my-6 flex-wrap w-[80vw] mx-auto'>
       {
         cardDetails.map((card)=>(
           <Card title={card.title} cardImg={card.image} para={card.para} btnTitle={card.btnTitle} />

@@ -5,6 +5,7 @@ import SearchForm from './SearchForm'
 import Image from 'next/image'
 
 import Logo from '@/assets/images/logo.png'
+import HeaderBottom from './HeaderBottom'
 
 const HeaderTop = () => {
     
@@ -13,9 +14,10 @@ const HeaderTop = () => {
         {/* Left Side */}
         <div className='flex items-center justify-between flex-1'>
             <Image src={Logo} width={100} alt='jasaka logo' className="logo text-lg font-bold text-white" />
-            <div className="hidden lg:block">
+            {/* <div className="hidden lg:block">
                 <SearchForm />
-            </div>
+            </div> */}
+            <HeaderBottom />
             <div></div>
         </div>
         {/* Right Side */}
