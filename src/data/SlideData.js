@@ -70,3 +70,45 @@ export const cardDetails = [
         btnLink: ""
     },
 ]
+
+export const testimonials = [
+    {
+        id:1,
+    detail: "something about correct partying",
+    name: "James Quasy",
+    position: "Vendor",
+    },
+    {
+        id:2,
+    detail: "something about correct partying",
+    name: "Ama Benson",
+    position: "Retailer",
+    },
+    {
+        id:3,
+    detail: "something about correct partying",
+    name: "Aisha Abdulai",
+    position: "Manager",
+    },
+]
+
+export const historyData = [
+    {
+        id:1,
+        detail: "JASAKA COMPANY LIMITED is a growing company incorporated in 2022 with the main objective of supplying clients’ needs accurately according to specs and timeously. With a dedicated, experience and effective human resource blended with   innovation   and technology, ",
+        topic: "The Incorporation",
+        subdetail: "JASAKA COMPANY LIMITED is poised to become the leading firm in the supply of products, civil work, oil & gas support services, road & building construction and cleaning services.",
+    },
+    {
+        id:2,
+        detail: "JASAKA COMPANY LIMITED prioritizes on the quality of goods and services offered   to   clients   at   any   given time.",
+        topic: "Our Drive",
+        subdetail: "With a competitive pricing nabbed in a value-added service.",
+    },
+    {
+        id:3,
+        detail: "JASAKA COMPANY LIMITED offers the best prices and guarantee customers of value for money.",
+        topic: "Our Pricing",
+        subdetail: "The company is compliant with all regulatory bodies as required and as such doing business with us comes with no challenges in that regard.",
+    },
+]

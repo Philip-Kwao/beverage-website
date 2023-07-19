@@ -6,14 +6,14 @@ import { motion } from 'framer-motion'
 
 const SwiperItem = ({bgImg, btnTitle, image, title1, title2, subtitle, }) => {
   return (
-    <motion.div className={`${bgImg} lg:h-[50vh] `}
+    <motion.div className={`${bgImg} lg:h-[50vh] h-full `}
     initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }}
     >
         <div className="max-w-[80vw] mx-auto  flex flex-col lg:flex-row justify-between items-center pt-16 ">
-        <div className="text-center max-w-lg flex flex-col items-center ">
-            <div className="relative text-left my-8 font-semibold text-white mb">
+        <div className="text-center max-w-lg flex flex-col items-center my-10">
+            <div className="relative text-left my-8 font-semibold text-white mb-4 lg:bg-transparent bg-black px-4 py-2 rounded">
                <motion.span className="relative z-10 text-3xl lg:text-4xl"
                 initial={{opacity: 0, transform: "translateX(-100px)"}}
                 animate={{opacity:1,transform: "translateX(100px)"}}

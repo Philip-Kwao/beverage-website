@@ -28,3 +28,7 @@
     background: rgb(235,199,85);
     background: linear-gradient(180deg, rgba(235,199,85,1) 16%, rgba(255,203,64,1) 42%, rgba(226,185,40,1) 75%);
 }
+
+.testBG{
+    background-image: url('../assets/images/bg.jpg')
+}
