@@ -1,7 +1,5 @@
-import { GoSearch } from 'react-icons/go'
 import { CiUser } from 'react-icons/ci'
 import { BsCart } from 'react-icons/bs'
-import SearchForm from './SearchForm'
 import Image from 'next/image'
 
 import Logo from '@/assets/images/logo.png'
