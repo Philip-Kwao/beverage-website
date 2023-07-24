@@ -3,7 +3,7 @@ import React from 'react'
 
 const NeedHelp = () => {
   return (
-    <div className='flex flex-col md:flex-row items-center justify-between px-32'>
+    <div className='flex flex-col md:flex-row items-center justify-between px-32 my-20'>
         <div className="flex flex-col items-center justify-evenly relative lg:basis-1/2">
             <div className="font-bold text-orange-600 text-5xl shadow-white shadow-2xl shadow__direction z-10 p-6 flex flex-col items-start justify-center">
                 <span>Need Any Help?</span>

@@ -49,7 +49,7 @@ const CTA = () => {
                 </motion.div>
             </motion.div>
         </div>
-        <MVV position={''} />
+        <MVV />
     </div>
   )
 }

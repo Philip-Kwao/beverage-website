@@ -6,7 +6,7 @@ import { BsHeart } from 'react-icons/bs'
 const MVV = ({position}) => {
   return (
     <div classname="">
-        <div className={`min-h-[50vh] lg:max-w-[80vw] w-full mx-auto z-10 lg:left-48 lg:-bottom-52 flex flex-wrap lg:flex-nowrap lg:items-start item-center justify-center pt-14 bg-white lg:shadow-2xl px-8 lg:${position === '' ? 'absolute' : position} text-center ease-in-out duration-200`}>
+        <div className={`min-h-[50vh] lg:max-w-[80vw] w-full mx-auto z-10 lg:left-48 lg:-bottom-52 flex flex-wrap lg:flex-nowrap lg:items-start item-center justify-center pt-14 bg-white lg:shadow-2xl px-8 lg:${position ? position :'absolute'} text-center ease-in-out duration-200`}>
                 <div className="max-w-sm group">
                     <span className="text-4xl text-center ease-in-out duration-200 lg:-mt-5 text-blue-950 group-hover:text-orange-600 mx-auto flex justify-center  items-center "><FiTarget /></span>
                     <h2 className='my-4 font-bold text-xl text-blue-950 group-hover:text-orange-600 duration-200 ease-in-out'>Our Mission</h2>

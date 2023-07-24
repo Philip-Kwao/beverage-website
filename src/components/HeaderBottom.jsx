@@ -6,7 +6,7 @@ const HeaderBottom = () => {
     <div className='flex text-center items-center justify-center flex-wrap'>
         <HeaderBottomItem link="/" title="Home" />
         <HeaderBottomItem link="about" title="About Us" />
-        <HeaderBottomItem link="service" title="Our Services" />
+        <HeaderBottomItem link="services" title="Our Services" />
         <HeaderBottomItem link="our-team" title="Our Team" />
         <HeaderBottomItem link="health-and-safety" title="Health & Safety" />
         <HeaderBottomItem link="project-reference" title="Project Reference" />

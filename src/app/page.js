@@ -1,7 +1,7 @@
 import CTA from '@/components/CTA'
 import CarouselSwiper from '@/components/CarouselSwiper'
 import Contact from '@/components/Contact'
-import MVV from '@/components/MVV'
+import NeedHelp from '@/components/NeedHelp'
 import ServiceItems from '@/components/ServiceItems'
 import ServiceRendered from '@/components/ServiceRendered'
 import Team from '@/components/Team'
@@ -14,9 +14,10 @@ export default function Home() {
       <CarouselSwiper />
       <WhoWeAre />
       <ServiceRendered />
-      <ServiceItems />
+      {/* <ServiceItems /> */}
       <CTA />
       <Testimonial />
+      <NeedHelp />
       <Team />
       <Contact />
     </main>
