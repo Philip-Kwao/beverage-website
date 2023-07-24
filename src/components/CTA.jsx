@@ -18,7 +18,7 @@ const CTA = () => {
       });
     
   return (
-    <div className="relative">
+    <div className="relative bg-slate-400">
         <div ref={ref} className='ctaBg lg:h-[72vh] w-full pt-6 mt-4'>
             <motion.div className=" max-w-[80vw] mx-auto flex items-center justify-around flex-wrap"
                 initial={{opacity: 0, x:-500}}

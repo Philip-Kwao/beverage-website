@@ -30,9 +30,15 @@
 }
 
 .testBG{
-    background-image: url('../assets/images/bg.jpg')
+    background-image: url('../assets/images/bg.jpg');
 }
 
 .shadow__direction{
     text-shadow: 0 0 -15px 10rem white;
+}
+.padding__top{
+    padding-top:15rem
+}
+.position__unset{
+    position: unset;
 }

@@ -16,7 +16,7 @@ import { BsDash } from 'react-icons/bs';
 const Testimonial = ({top, marginTD}) => {
   return (
     <>
-          <div className={`flex flex-col lg:flex-row items-center justify-start testBG pt-${top===''? 0:72} my-${marginTD}`}>
+          <div className={`flex flex-col lg:flex-row items-center justify-start testBG ${top?'padding__top':''} my-${marginTD?marginTD:0}`}>
             {/* Testimonials */}
             <div className="relative w-full lg:w-[50vw] h-96 py-8 px-10">
               <h2 className='font-bold text-2xl'>Testimonials</h2>

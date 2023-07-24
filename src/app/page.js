@@ -16,7 +16,7 @@ export default function Home() {
       <ServiceRendered />
       {/* <ServiceItems /> */}
       <CTA />
-      <Testimonial />
+      <Testimonial top />
       <NeedHelp />
       <Team />
       <Contact />
