@@ -10,8 +10,8 @@ const ServiceCard = ({icon, title, detail}) => {
         triggerOnce: true
     })
   return (
-    <div className='flex items-start justify-between max-w-sm'>
-        <div className="">
+    <div className='flex items-start justify-between max-w-sm mx-auto lg:mx-0'>
+        <div className="mr-2">
             <span className='text-4xl text-orange-600'>{icon}</span>
         </div>
         <div className=" max-w-xs relative flex flex-col justify-between items-start min-h-[15rem]">

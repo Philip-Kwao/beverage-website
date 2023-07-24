@@ -13,10 +13,10 @@ import { historyData, testimonials } from '@/data/SlideData'
 import Line from './Line'
 import { BsDash } from 'react-icons/bs';
 
-const Testimonial = () => {
+const Testimonial = ({top, marginTD}) => {
   return (
     <>
-          <div className="flex flex-col lg:flex-row items-center justify-start testBG pt-72">
+          <div className={`flex flex-col lg:flex-row items-center justify-start testBG pt-${top===''? 0:72} my-${marginTD}`}>
             {/* Testimonials */}
             <div className="relative w-full lg:w-[50vw] h-96 py-8 px-10">
               <h2 className='font-bold text-2xl'>Testimonials</h2>
