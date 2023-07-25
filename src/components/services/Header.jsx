@@ -11,10 +11,10 @@ const Header = () => {
         <span className="text-white italic text-sm">JASAKA COMPANY LIMITED is on the path to emerge as the premier firm, offering a comprehensive range of services including product supply, civil works, oil & gas support services, road & building construction, and top-tier cleaning solutions. Our aim is to lead the industry with excellence and innovation.</span>
       </div>
       <div className="lg:basis-1/2 grid grid-cols-2 gap-0 px-10">
-        <Image src={Image1} alt={Image1} className='w-[300px] h-[300px] object-cover' />
-        <Image src={Image2} alt={Image1} className='w-[300px] h-[300px] object-cover' />
-        <Image src={Image1} alt={Image1} className='w-[300px] h-[300px] object-cover' />
-        <Image src={Image2} alt={Image1} className='w-[300px] h-[300px] object-cover' />
+        <Image src={Image1} alt={Image1} className='w-[300px] 2xl:w-[500px] h-[300px] 2xl:h-[300px] object-cover' />
+        <Image src={Image2} alt={Image1} className='w-[300px] 2xl:w-[500px] h-[300px] 2xl:h-[300px] object-cover' />
+        <Image src={Image1} alt={Image1} className='w-[300px] 2xl:w-[500px] h-[300px] 2xl:h-[300px] object-cover' />
+        <Image src={Image2} alt={Image1} className='w-[300px] 2xl:w-[500px] h-[300px] 2xl:h-[300px] object-cover' />
       </div>
     </div>
   )

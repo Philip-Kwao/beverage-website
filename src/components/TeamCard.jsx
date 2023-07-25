@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import MyLink from './MyLink'
 import Social from './socials/Social'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
