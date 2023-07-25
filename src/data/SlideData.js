@@ -14,6 +14,7 @@ import Image13 from "@/assets/images/soft.png"
 
 export const swipeDetails = [
     {
+    id:5,
     title_1: 'Make it a Zero',
     title_2: "alcohol moment",
     subtitle: "something about correct partying",
@@ -22,6 +23,7 @@ export const swipeDetails = [
     bg: "swiperBg"
     },
     {
+    id:1,
     title_1: 'For Your Corporate',
     title_2: "Events",
     subtitle: "something about correct partying",
@@ -30,6 +32,7 @@ export const swipeDetails = [
     bg: "swiperBg2"
     },
     {
+    id:2,
     title_1: 'We supply for',
     title_2: "Wedding Ceremonies",
     subtitle: "something about correct partying",
@@ -38,6 +41,7 @@ export const swipeDetails = [
     bg: "swiperBg1"
     },
     {
+    id:3,
     title_1: 'Lit up your party',
     title_2: "With affordable drinks",
     subtitle: "something about correct partying",
@@ -49,6 +53,7 @@ export const swipeDetails = [
 
 export const cardDetails = [
     {
+        id:1,
         title:"We Sell Wholesale stuffs",
         image: Image5,
         para: "something about the title",
@@ -56,6 +61,7 @@ export const cardDetails = [
         btnLink: ""
     },
     {
+        id: 2,
         title:"Buy at a very cheaper rate",
         image: Image6,
         para: "something about the title",
@@ -63,6 +69,7 @@ export const cardDetails = [
         btnLink: ""
     },
     {
+        id:3,
         title:"We are ever ready for your occassion",
         image: Image7,
         para: "something about the title",

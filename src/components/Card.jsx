@@ -4,9 +4,9 @@ import React from 'react'
 import Button from './Button'
 import { motion } from 'framer-motion'
 
-const Card = ({cardImg, title, para, btnTitle}) => {
+const Card = ({cardImg, title, para, btnTitle, id}) => {
   return (
-    <motion.div className='max-w-md shadow-md'
+    <motion.div className='max-w-md shadow-md' key={id}
     initial={{opacity:0, scale:0}}
     animate={{opacity:1, scale:1}}
     whileHover={{scale:1.01}}

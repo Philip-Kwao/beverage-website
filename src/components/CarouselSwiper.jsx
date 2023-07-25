@@ -31,8 +31,9 @@ const CarouselSwiper = () => {
       >
         {
           swipeDetails.map((swipe) => (
-            <SwiperSlide>
+            <SwiperSlide key={swipe.id}>
                 <SwiperItem 
+                
                 bgImg={swipe.bg} 
                 btnTitle={swipe.btnTitle}
                 image={swipe.image}

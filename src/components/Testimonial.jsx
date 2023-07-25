@@ -37,8 +37,8 @@ const Testimonial = ({top, marginTD}) => {
         >
           {
             testimonials.map((test) => (
-              <SwiperSlide >
-                      <div key={test.id} className="mt-4 group lg:max-w-[20vw] mx-auto flex items-start lg:justify-around">
+              <SwiperSlide key={test.id} >
+                      <div  className="mt-4 group lg:max-w-[20vw] mx-auto flex items-start lg:justify-around">
                         <div className="text-3xl group-hover:text-orange-600 text-slate-800 duration-200 ease-in-out mx-2">
                           <BiSolidQuoteAltLeft />
                         </div>
@@ -73,8 +73,8 @@ const Testimonial = ({top, marginTD}) => {
         >
           {
             historyData.map((history) => (
-              <SwiperSlide >
-                      <div key={history.id} className="mt-4 group lg:max-w-[50vw] mx-auto flex items-start justify-around">
+              <SwiperSlide key={history.id} >
+                      <div className="mt-4 group lg:max-w-[50vw] mx-auto flex items-start justify-around">
                         <div className="text-3xl group-hover:text-orange-600 text-slate-800 duration-200 ease-in-out mx-2">
                           <BsDash />
                         </div>

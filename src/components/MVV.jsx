@@ -9,7 +9,7 @@ const MVV = ({position}) => {
                 <div className="max-w-sm group">
                     <span className="text-4xl text-center ease-in-out duration-200 lg:-mt-5 text-blue-950 group-hover:text-orange-600 mx-auto flex justify-center  items-center "><FiTarget /></span>
                     <h2 className='my-4 font-bold text-xl text-blue-950 group-hover:text-orange-600 duration-200 ease-in-out'>Our Mission</h2>
-                    <p className="text-justify text-sm text-slate-500">Our existence is   mainly to   provide the highest and uncompromising services targeted at customer satisfaction, delivery on time and value addition.   Our focus is on quality, meeting customers' expectations, and continuous improvement in the application and delivery of our services.</p>
+                    <p className="text-justify text-sm text-slate-500">Our existence is   mainly to   provide the highest and uncompromising services targeted at customer satisfaction, delivery on time and value addition.   Our focus is on quality, meeting customers expectations, and continuous improvement in the application and delivery of our services.</p>
                 </div>
                 <span className="h-32 w-[1px] lg:bg-slate-400 mx-6 mt-14 "></span>
       

@@ -4,9 +4,9 @@ import Button from './Button'
 
 import { motion } from 'framer-motion'
 
-const SwiperItem = ({bgImg, btnTitle, image, title1, title2, subtitle, }) => {
+const SwiperItem = ({bgImg, btnTitle, image, title1, title2, subtitle, key}) => {
   return (
-    <motion.div className={`${bgImg} lg:h-[50vh] h-full `}
+    <motion.div className={`${bgImg} lg:h-[50vh] h-full `} key={key}
     initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }}
