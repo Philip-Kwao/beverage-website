@@ -4,7 +4,7 @@ import Button from './Button'
 
 import { motion } from 'framer-motion'
 
-const SwiperItem = ({bgImg, btnTitle, image, title1, title2, subtitle, key}) => {
+const SwiperItem = ({bgImg, btnTitle, image, title1, title2, subtitle, key,link}) => {
   return (
     <motion.div className={`${bgImg} lg:h-[50vh] h-full `} key={key}
     initial={{ opacity: 0, scale: 0.5 }}
@@ -46,6 +46,7 @@ const SwiperItem = ({bgImg, btnTitle, image, title1, title2, subtitle, key}) => 
                 hoverBgColor={'bg-orange-400'}
                 borderColor={''} 
                 border={''} 
+                link={link}
             />
         </div>
         <div className="w-96 h-72">

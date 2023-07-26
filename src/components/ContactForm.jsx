@@ -13,7 +13,7 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs.sendForm(serviceId, templateId, form.current)
     .then((response) => {
-      console.log('Email sent successfully!', response);
+      alert('Email sent successfully!', response);
     })
     .catch((error) => {
       console.error('Failed to send email:', error);

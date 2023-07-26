@@ -11,43 +11,51 @@ import Image10 from "@/assets/images/4.jpg"
 import Image11 from "@/assets/images/5.jpg"
 import Image12 from "@/assets/images/5.webp"
 import Image13 from "@/assets/images/soft.png"
+import Image14 from "@/assets/images/sc/1.jpg"
+import Image15 from "@/assets/images/sc/16.jpg"
+import Image16 from "@/assets/images/sc/2.webp"
+import Image17 from "@/assets/images/sc/3.webp"
 
 export const swipeDetails = [
     {
     id:5,
-    title_1: 'Make it a Zero',
-    title_2: "alcohol moment",
-    subtitle: "something about correct partying",
-    image: Image1,
-    btnTitle: "shop now",
-    bg: "swiperBg"
-    },
+    title_1: 'Who we are',
+    title_2: "& stand for",
+    subtitle: "Poised to become the leading firm in the supply of products, civil work, oil & gas support services, road & building construction and cleaning services",
+    image: Image14,
+    btnTitle: "Contact Us",
+    bg: "swiperBg",
+    link:'contact-us'
+},
     {
     id:1,
-    title_1: 'For Your Corporate',
-    title_2: "Events",
-    subtitle: "something about correct partying",
-    image: Image2,
-    btnTitle: "shop now",
-    bg: "swiperBg2"
-    },
+    title_1: 'Let us help you',
+    title_2: "Your logistics needs",
+    subtitle: "The motive that spurs us on is our simple yet effective approach of meeting customer needs in an effective and efficient manner.",
+    image: Image15,
+    btnTitle: "Contact Us",
+    bg: "swiperBg2",
+    link:'contact-us'
+},
     {
     id:2,
-    title_1: 'We supply for',
-    title_2: "Wedding Ceremonies",
-    subtitle: "something about correct partying",
-    image: Image3,
-    btnTitle: "shop now",
-    bg: "swiperBg1"
-    },
+    title_1: 'Know More  About Us',
+    title_2: "What we do and who we are",
+    subtitle: "We are here to give you the best of services",
+    image: Image16,
+    btnTitle: "About Us",
+    bg: "swiperBg1",
+    link:'about'
+},
     {
     id:3,
-    title_1: 'Lit up your party',
-    title_2: "With affordable drinks",
-    subtitle: "something about correct partying",
-    image: Image4,
-    btnTitle: "shop now",
-    bg: "swiperBg3"
+    title_1: 'Know More',
+    title_2: "About Our Services",
+    subtitle: "We are into the distribution services",
+    image: Image17,
+    btnTitle: "Our Services",
+    bg: "swiperBg3",
+    link:'services'
     },
 ]
 
