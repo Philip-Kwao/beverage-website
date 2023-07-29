@@ -5,7 +5,7 @@ import { ServiceDetails } from '@/data/ServiceData'
 const ServiceRendered = () => {
   return (
     <div>
-        <div className="max-w-[90vw] mx-auto">
+        <div className="max-w-[90vw] mx-auto overflow-x-hidden">
             <h2 className='text-center text-4xl font-bold text-blue-950 my-8'>Service Rendered</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center mx-auto gap-y-4">
                 {
