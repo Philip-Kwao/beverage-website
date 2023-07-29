@@ -3,9 +3,10 @@ import { CiUser } from 'react-icons/ci'
 import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 import Image from 'next/image'
 
-import Logo from '@/assets/images/logo.png'
+import Logo from '@/assets/images/jcl-logo.png'
 import HeaderBottom from './HeaderBottom'
 import { useState } from 'react'
+import Link from 'next/link'
 
 const HeaderTop = () => {
     const [toggle, setToggle] = useState(false)
@@ -17,7 +18,9 @@ const HeaderTop = () => {
     <div className='flex items-center justify-between border-b border-orange-500'>
         {/* Left Side */}
         <div className='flex items-center justify-between flex-1'>
-            <Image src={Logo} width={100} alt='jasaka logo' className="logo text-lg font-bold text-white" />
+            <Link href={'/'}>
+                <Image src={Logo} width={100} alt='jasaka logo' className="logo text-lg font-bold text-white" />
+            </Link>
             {/* <div className="hidden lg:block">
                 <SearchForm />
             </div> */}

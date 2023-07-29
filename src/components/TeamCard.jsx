@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
 const TeamCard = ({teamQualification, teamImage, teamLink, teamName, teamPosition, linkedIn, facebook, twitter, timeDuration}) => {
-    const {ref, inView} = useInView({
+    const {ref, inView, entry} = useInView({
         threshold: 0,
         triggerOnce: true
     }) 
