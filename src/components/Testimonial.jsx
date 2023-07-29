@@ -18,7 +18,7 @@ const Testimonial = ({top, marginTD}) => {
     <>
           <div className={`flex flex-col lg:flex-row items-center justify-start testBG ${top?'padding__top':''} my-${marginTD?marginTD:0}`}>
             {/* Testimonials */}
-            <div className="relative w-full lg:w-[50vw] h-96 py-8 px-10">
+            <div className="relative w-full lg:w-[50vw] h-96 py-2 px-10">
               <h2 className='font-bold text-2xl'>Testimonials</h2>
               <Line topPosition={'top-16'} leftPosition={'left-10'} />
       <Swiper
@@ -54,7 +54,7 @@ const Testimonial = ({top, marginTD}) => {
     </Swiper>
           </div>
           {/* History */}
-            <div className="relative w-full lg:w-[50vw] h-96 py-8 px-10">
+            <div className="relative w-full lg:w-[50vw] h-96 py-2 px-10">
               <h2 className='font-bold text-2xl'>Our History</h2>
               <Line topPosition={'top-16'} leftPosition={'left-10'} />
       <Swiper
@@ -74,7 +74,7 @@ const Testimonial = ({top, marginTD}) => {
           {
             historyData.map((history) => (
               <SwiperSlide key={history.id} >
-                      <div className="mt-4 group lg:max-w-[50vw] mx-auto flex items-start justify-around">
+                      <div className="mt-4 group lg:max-w-[50vw] mx-auto flex items-start justify-around h-full">
                         <div className="text-3xl group-hover:text-orange-600 text-slate-800 duration-200 ease-in-out mx-2">
                           <BsDash />
                         </div>
