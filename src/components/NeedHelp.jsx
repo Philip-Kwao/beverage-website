@@ -14,7 +14,7 @@ const NeedHelp = () => {
         </div>
         <div className="relative flex lg:basis-1/2 items-center justify-evenly">
             <span className="h-1 w-32 rounded-full bg-gray-600 hidden lg:block"></span>
-            <Link href="contact" className='text-4xl font-extrabold text-black hover:text-yellow-500 duration-200 ease-in-out'>Contact Us</Link>
+            <Link href="contact-us" className='text-4xl font-extrabold text-black hover:text-yellow-500 duration-200 ease-in-out'>Contact Us</Link>
         </div>
     </div>
   )
