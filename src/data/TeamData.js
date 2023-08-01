@@ -1,8 +1,10 @@
+import CEO from '@/assets/images/jcl/ceo.jpeg'
+
 export const teamDetails = [
     {
         id:1,
         teamName: "JUSTICE ASAKIA APOSISSAH",
-        teamImage: null,
+        teamImage: CEO,
         teamPosition: "C.E.O AND GENERAL MANAGER",
         teamQualification: "BBA. ACCOUNTING, ICA PART II",
         linkedIn: "",
