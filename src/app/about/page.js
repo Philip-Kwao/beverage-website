@@ -11,8 +11,8 @@ const page = () => {
     <div>
       <Header />
       <ServiceRendered />
-      <MVV position />
-      <Testimonial marginTD={4} />
+      <MVV/>
+      <Testimonial />
       <Team />
       <NeedHelp />
     </div>

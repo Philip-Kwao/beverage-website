@@ -10,9 +10,8 @@ const page = () => {
     <div>
       <Header />
       <ServiceRendered />
-      <NeedHelp />
       <WhyWorkWithUs />
-      <Contact />
+      <NeedHelp />
     </div>
   )
 }

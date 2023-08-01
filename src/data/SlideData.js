@@ -1,16 +1,7 @@
-import Image1 from "@/assets/images/1.webp"
-import Image2 from "@/assets/images/corp2.png"
-import Image3 from "@/assets/images/corp1.jpg"
-import Image4 from "@/assets/images/2.jpg"
+
 import Image5 from "@/assets/images/3.jpg"
 import Image6 from "@/assets/images/wed2.jpg"
 import Image7 from "@/assets/images/wed3.jpg"
-import Image8 from "@/assets/images/counter1.jpg"
-import Image9 from "@/assets/images/counter2.jpg"
-import Image10 from "@/assets/images/4.jpg"
-import Image11 from "@/assets/images/5.jpg"
-import Image12 from "@/assets/images/5.webp"
-import Image13 from "@/assets/images/soft.png"
 import Image14 from "@/assets/images/sc/1.jpg"
 import Image15 from "@/assets/images/sc/16.jpg"
 import Image16 from "@/assets/images/sc/2.webp"
@@ -66,7 +57,7 @@ export const cardDetails = [
         image: Image5,
         para: "something about the title",
         btnTitle: "Contact Us",
-        btnLink: ""
+        btnLink: "contact-us"
     },
     {
         id: 2,
@@ -74,7 +65,7 @@ export const cardDetails = [
         image: Image6,
         para: "something about the title",
         btnTitle: "Contact Us",
-        btnLink: ""
+        btnLink: "contact-us"
     },
     {
         id:3,
@@ -82,7 +73,7 @@ export const cardDetails = [
         image: Image7,
         para: "something about the title",
         btnTitle: "Contact Us",
-        btnLink: ""
+        btnLink: "contact-us"
     },
 ]
 

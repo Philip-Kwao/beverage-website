@@ -16,10 +16,10 @@ export default function Home() {
       <ServiceRendered />
       {/* <ServiceItems /> */}
       <CTA />
-      <Testimonial top />
-      <NeedHelp />
+      <Testimonial />
       <Team />
-      <Contact />
+      {/* <Contact /> */}
+      <NeedHelp />
     </main>
   )
 }

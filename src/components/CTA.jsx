@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import MyLink from './MyLink'
 import Image from 'next/image'
-import CTAImage from '@/assets/images/corp2.png'
+import CTAImage from '@/assets/images/sc/21.jpg'
 import { motion } from 'framer-motion'
 import { useEffect } from 'react';
 import { useAnimation } from 'framer-motion';
@@ -18,8 +18,8 @@ const CTA = () => {
       });
     
   return (
-    <div className="relative bg-slate-400">
-        <div ref={ref} className='ctaBg lg:h-[72vh] w-full pt-6 mt-4'>
+    <div className="relative">
+        <div ref={ref} className='ctaBg w-full mt-4'>
             <motion.div className=" max-w-[80vw] mx-auto flex items-center justify-around flex-wrap"
                 initial={{opacity: 0, x:-500}}
                 animate= {inView ? {opacity:1, x:0}:{opacity:0}}

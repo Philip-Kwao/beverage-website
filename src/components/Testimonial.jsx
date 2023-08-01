@@ -16,7 +16,7 @@ import { BsDash } from 'react-icons/bs';
 const Testimonial = ({top, marginTD}) => {
   return (
     <>
-          <div className={`flex flex-col lg:flex-row items-center justify-start testBG ${top?'padding__top':''} my-${marginTD?marginTD:0}`}>
+          <div className={`flex flex-col lg:flex-row items-center justify-start testBG pt-10 my-4`}>
             {/* Testimonials */}
             <div className="relative w-full lg:w-[50vw] h-96 py-2 px-10">
               <h2 className='font-bold text-2xl'>Testimonials</h2>
@@ -38,7 +38,7 @@ const Testimonial = ({top, marginTD}) => {
           {
             testimonials.map((test) => (
               <SwiperSlide key={test.id} >
-                      <div  className="mt-4 group lg:max-w-[20vw] mx-auto flex items-start lg:justify-around">
+                      <div  className="mt-10 group lg:max-w-[20vw] mx-auto flex items-start lg:justify-around">
                         <div className="text-3xl group-hover:text-orange-600 text-slate-800 duration-200 ease-in-out mx-2">
                           <BiSolidQuoteAltLeft />
                         </div>
@@ -74,7 +74,7 @@ const Testimonial = ({top, marginTD}) => {
           {
             historyData.map((history) => (
               <SwiperSlide key={history.id} >
-                      <div className="mt-4 group lg:max-w-[50vw] mx-auto flex items-start justify-around h-full">
+                      <div className="mt-10 group lg:max-w-[50vw] mx-auto flex items-start justify-around h-full">
                         <div className="text-3xl group-hover:text-orange-600 text-slate-800 duration-200 ease-in-out mx-2">
                           <BsDash />
                         </div>
