@@ -18,7 +18,7 @@ const CarouselSwiper = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 5500,
+          delay: 6500,
           disableOnInteraction: false,
         }}
         pagination={{
