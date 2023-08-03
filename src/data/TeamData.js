@@ -1,6 +1,6 @@
 import CEO from '@/assets/images/jcl/ceo.jpeg'
 
-export const teamDetails = [
+export const teamDetails = [ 
     {
         id:1,
         teamName: "JUSTICE ASAKIA APOSISSAH",
