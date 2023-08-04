@@ -32,10 +32,7 @@ const Gallery = () => {
             > */}
                     {
                         images.map((image, index)=>(
-                            <a key={index} href={{
-                                pathname: image,
-                                query: { name: 'test' },
-                              }}>
+                            <a key={index} href="">
                                 <Image alt={index} src={image} width={300} height={500} className='w-[300px] h-[500px] object-cover hover:scale-75 duration-200 ease-in-out hover:shadow-lg' />
                             </a>
                         ))
