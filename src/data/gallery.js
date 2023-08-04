@@ -15,7 +15,6 @@ import Img14 from '../assets/images/jcl/16.jpg'
 import Img15 from '../assets/images/jcl/17.jpg'
 import Img16 from '../assets/images/jcl/18.jpg'
 import Img17 from '../assets/images/jcl/20.jpg'
-import Img18 from '../assets/images/jcl/19.jpg'
 
 
 const images = [
@@ -36,7 +35,6 @@ const images = [
      Img15,
      Img16,
      Img17,
-     Img18,
 
 // '../assets/images/sc/1.jpg',
 // '../assets/images/sc/2.webp',
