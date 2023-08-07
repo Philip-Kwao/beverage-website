@@ -8,7 +8,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="oveerflow-x-hidden">
+    <div className="overflow-x-hidden">
       <Header />
       <ServiceRendered />
       <MVV/>
