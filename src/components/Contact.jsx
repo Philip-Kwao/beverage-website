@@ -20,7 +20,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-center justify-around my-10">
             <Link href={'to:jasakacompany@gmail.com'} target='_blank' className="my-4 hover:underline hover:text-orange-600">jasakacompany@gmail.com</Link>
-            <Link href={'to:kjustice217@gmail.com'} target='_blank' className="hover:underline hover:text-orange-600">Cc: kjustice217@gmail.com</Link>
+            <Link href={'to:info@jasakaghana.com'} target='_blank' className="hover:underline hover:text-orange-600">Cc: info@jasakaghana.com</Link>
           </div>
         </div>
         <ContactForm />
