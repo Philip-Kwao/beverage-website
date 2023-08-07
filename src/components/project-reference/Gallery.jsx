@@ -58,6 +58,7 @@ const Gallery = () => {
                         items.map((image, index)=>(
                             <motion.div
                                 layout
+                                key={image.id}
                             >
                                 <motion.div key={index} 
                                     whileTap={{scale:1.5}}
