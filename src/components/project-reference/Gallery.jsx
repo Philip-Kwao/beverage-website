@@ -41,10 +41,6 @@ const Gallery = () => {
     
     const showImage = () => {}
     
-        const imageShown = () => {
-            
-        }
-    
     return (
     <div className="App">
         <div className="flex flex-wrap items-center justify-around max-w-[20vw] mx-auto text-sm font-light my-6">
