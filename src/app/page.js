@@ -10,7 +10,7 @@ import WhoWeAre from '@/components/WhoWeAre'
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <CarouselSwiper />
       <WhoWeAre />
       <ServiceRendered />
