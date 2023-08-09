@@ -32,9 +32,18 @@ const Gallery = () => {
             > */}
                     {
                         images.map((image, index)=>(
-                            <a key={index} href="">
-                                <Image alt={index} src={image} width={300} height={500} className='w-[300px] h-[500px] object-cover hover:scale-75 duration-200 ease-in-out hover:shadow-lg' />
-                            </a>
+                             <motion.div
+                                layout
+                                key={image.id}
+                            >
+                                <motion.div 
+                                    whileTap={{scale:1.5}}
+                                    onClick={()=>setShowImages(image.img)}
+                                >
+                                    <Image onClick={()=>{showImage}} alt={index} src={image.img} width={300} height={500} className='w-[300px] h-[500px] object-cover hover:scale-75 duration-200 ease-in-out hover:shadow-lg' />
+                                </motion.div>
+                                {/* <Image src={showImages} className="w-full h-full absolute rounded-xl shadow-xl z-20" /> */}
+                            </motion.div>
                         ))
                     }
             {/* </LightGallery> */}
