@@ -18,23 +18,91 @@ import Img17 from '../assets/images/jcl/20.jpg'
 
 
 const images = [
-     Img1,
-     Img2,
-     Img3,
-     Img4,
-     Img5,
-     Img6,
-     Img7,
-     Img8,
-     Img9,
-     Img10,
-     Img11,
-     Img12,
-     Img13,
-     Img14,
-     Img15,
-     Img16,
-     Img17,
+      {
+        id:1,
+        img: Img1,
+        category:"one"
+    },
+     {
+        id:1,
+        img: Img2,
+        category:"one"
+    },
+     {
+        id:1,
+        img: Img3,
+        category:"two"
+    },
+     {
+        id:1,
+        img: Img4,
+        category:"two"
+    },
+     {
+        id:1,
+        img: Img5,
+        category:"two"
+    },
+     {
+        id:1,
+        img: Img6,
+        category:"one"
+    },
+     {
+        id:1,
+        img: Img7,
+        category:"one"
+    },
+     {
+        id:2,
+        img: Img8,
+        category:"two"
+    },
+     {
+        id:3,
+        img: Img9,
+        category:"two"
+    },
+     {
+        id:4,
+        img: Img10,
+        category:"one"
+    },
+     {
+        id:5,
+        img: Img11,
+        category:"one"
+    },
+     {
+        id:6,
+        img: Img12,
+        category:"two"
+    },
+     {
+        id:7,
+        img: Img13,
+        category:"one"
+    },
+     {
+        id:8,
+        img: Img14,
+        category:"one"
+    },
+     {
+        id:9,
+        img: Img15,
+        category:"two"
+    },
+     {
+        id:10,
+        img: Img16,
+        category:"one"
+    },
+     {
+        id:11,
+        img: Img17,
+        category:"two"
+    },
 
 // '../assets/images/sc/1.jpg',
 // '../assets/images/sc/2.webp',
