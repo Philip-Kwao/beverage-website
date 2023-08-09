@@ -17,6 +17,7 @@ import Image from 'next/image';
 import images from '@/data/gallery';
 import { swipeDetails } from '@/data/SlideData';
 import {Img} from "@/assets/images/sc/1.jpg"
+import {motion} from 'framer-motion'
 
 const Gallery = () => {
     const onInit = () => {
