@@ -60,7 +60,7 @@ const Gallery = () => {
                                 layout
                                 key={image.id}
                             >
-                                <motion.div key={index} 
+                                <motion.div 
                                     whileTap={{scale:1.5}}
                                     onClick={()=>setShowImages(image.img)}
                                 >
