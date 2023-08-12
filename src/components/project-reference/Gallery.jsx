@@ -53,7 +53,7 @@ const Gallery = () => {
                 onInit={onInit}
                 speed={500}
                 plugins={[lgThumbnail, lgZoom]}
-                className="flex items-center justify-center flex-wrap relative"
+                className="grid items-center justify-center grid-rows-3"
             > 
                   
                     {
