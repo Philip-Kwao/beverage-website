@@ -53,7 +53,7 @@ const Gallery = () => {
                 speed={500}
                 plugins={[lgThumbnail, lgZoom]}
             > 
-                <div className="flex items-center justify-center flex-wrap relative">
+{/*                 <div className="flex items-center justify-center flex-wrap relative"> */}
                     {
                         items.map((image, index)=>(
                             <motion.a
@@ -70,7 +70,7 @@ const Gallery = () => {
                             </motion.a>
                         ))
                     }
-                </div>
+{/*                 </div> */}
              </LightGallery> 
         </div>
   )
