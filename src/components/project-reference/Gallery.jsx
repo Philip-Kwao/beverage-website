@@ -65,7 +65,7 @@ const Gallery = () => {
 {/*                                 <motion.div 
                                     whileTap={{scale:1.5}}
                                 > */}
-                                    <Image onClick={()=>{showImage}} alt={index} src={image.img} width={300} height={500} className='w-[300px] h-[500px] object-cover hover:scale-75 duration-200 ease-in-out hover:shadow-lg' />
+                                    <Image onClick={()=>{showImage}} alt={index} src={image.img}  className='w-[600px] h-[400px] object-cover hover:scale-75 duration-200 ease-in-out hover:shadow-lg' />
 {/*                                 </motion.div> */}
                                 {/* <Image src={showImages} className="w-full h-full absolute rounded-xl shadow-xl z-20" /> */}
                             </motion.a>
