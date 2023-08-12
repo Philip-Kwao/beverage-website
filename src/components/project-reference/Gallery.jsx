@@ -48,11 +48,11 @@ const Gallery = () => {
             <button onClick={()=>{filterItem('two')}} className="px-4 py-2 rounded-full hover:bg-orange-500 bg-slate-800 text-white duration-200 ease-in-out">Project Two</button>
             <button onClick={()=>setItems(images)} className="px-4 py-2 rounded-full hover:bg-orange-500 bg-slate-800 text-white duration-200 ease-in-out">All</button>
         </div>
-            {/* <LightGallery
+             <LightGallery
                 onInit={onInit}
                 speed={500}
                 plugins={[lgThumbnail, lgZoom]}
-            > */}
+            > 
                 <div className="flex items-center justify-center flex-wrap relative">
                     {
                         items.map((image, index)=>(
@@ -71,7 +71,7 @@ const Gallery = () => {
                         ))
                     }
                 </div>
-            {/* </LightGallery> */}
+             </LightGallery> 
         </div>
   )
 }
