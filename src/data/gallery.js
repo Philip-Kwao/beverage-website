@@ -29,113 +29,90 @@ const images = [
         category:"one"
     },
      {
-        id:1,
+        id:2,
         img: Img3,
         category:"two"
     },
      {
-        id:1,
+        id:3,
         img: Img4,
         category:"two"
     },
      {
-        id:1,
+        id:4,
         img: Img5,
         category:"two"
     },
      {
-        id:1,
+        id:5,
         img: Img6,
         category:"one"
     },
-     {
-        id:1,
+    
+
+    ]
+const images1 = [
+       {
+        id:6,
         img: Img7,
         category:"one"
     },
      {
-        id:2,
+        id:7,
         img: Img8,
         category:"two"
     },
      {
-        id:3,
+        id:8,
         img: Img9,
         category:"two"
     },
      {
-        id:4,
+        id:9,
         img: Img10,
         category:"one"
     },
      {
-        id:5,
+        id:10,
         img: Img11,
         category:"one"
     },
      {
-        id:6,
+        id:11,
         img: Img12,
         category:"two"
     },
      {
-        id:7,
+        id:12,
         img: Img13,
         category:"one"
     },
-     {
-        id:8,
+    
+
+    ]
+const images2 = [
+      {
+        id:13,
         img: Img14,
         category:"one"
     },
      {
-        id:9,
+        id:15,
         img: Img15,
         category:"two"
     },
      {
-        id:10,
+        id:16,
         img: Img16,
         category:"one"
     },
      {
-        id:11,
+        id:17,
         img: Img17,
         category:"two"
     },
 
-// '../assets/images/sc/1.jpg',
-// '../assets/images/sc/2.webp',
-
-// '../assets/images/sc/3.webp',
-
-// '../assets/images/sc/4.webp',
-
-// '../assets/images/sc/5.jpg',
-// '../assets/images/sc/7.jpg',
-// '../assets/images/sc/8.jpg',
-
-// '../assets/images/sc/9.webp',
-
-// '../assets/images/sc/10.png',
-
-// '../assets/images/sc/11.JPG',
-
-// '../assets/images/sc/13.jpg',
-
-// '../assets/images/sc/14.jpg',
-
-// '../assets/images/sc/15.jpg',
-
-// '../assets/images/sc/16.jpg',
-
-// '../assets/images/sc/17.jpeg',
-// '../assets/images/sc/19.jpg',
-
-// '../assets/images/sc/20.jpg',
-
-// '../assets/images/sc/21.jpg',
-
     ]
 
+      
 export default images
