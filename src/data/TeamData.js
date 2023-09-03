@@ -1,7 +1,7 @@
 import CEO from '@/assets/images/jcl/ceo.jpeg'
-import Mary from '@/assets/images/jcl/IMG_1625.jpg'
-import Sam from '@/assets/images/jcl/IMG_1647.jpg'
-import Joe from '@/assets/images/jcl/IMG_1614.jpg'
+import Mary from '@/assets/images/IMG_1625.jpg'
+import Sam from '@/assets/images/IMG_1647.jpg'
+import Joe from '@/assets/images/IMG_1614.jpg'
 
 export const teamDetails = [ 
     {
