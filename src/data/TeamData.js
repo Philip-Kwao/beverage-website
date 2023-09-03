@@ -17,7 +17,7 @@ export const teamDetails = [
     {
         id:2,
         teamName: "MARY ADU ERSKINE",
-        teamImage: null,
+        teamImage: Mary,
         teamPosition: "HUMAN RESOURCE MANAGER",
         teamQualification: "BSc. SUPPLY CHAIN MANAGEMENT",
         linkedIn: "",
@@ -47,7 +47,7 @@ export const teamDetails = [
     {
         id:5,
         teamName: "JOSEPH SOLOMON ANSAH",
-        teamImage: null,
+        teamImage: Joe,
         teamPosition: "ACCOUNTANT",
         teamQualification: "BBA. Accounting, HND Accounting",
         linkedIn: "",
@@ -57,7 +57,7 @@ export const teamDetails = [
     {
         id:6,
         teamName: "SAMUEL JONES",
-        teamImage: null,
+        teamImage: Sam,
         teamPosition: "LEAD SUPERVISOR – ELECTRICAL ENGINEERING",
         teamQualification: "ECG & ENERGY COMMISSION ELECTRICAL CONTRACTOR LICENSE",
         linkedIn: "",
