@@ -5,7 +5,7 @@ import Image7 from "@/assets/images/wed3.jpg"
 import Image14 from "@/assets/images/sc/14.jpg"
 import Image15 from "@/assets/images/sc/16.jpg"
 import Image16 from "@/assets/images/IMG_1635.png"
-import Image17 from "@/assets/images/sc/3.webp"
+import Image17 from "@/assets/images/IMG_1614.jpg"
 
 export const swipeDetails = [
     {
