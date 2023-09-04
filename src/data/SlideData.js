@@ -1,6 +1,6 @@
 
 import Image5 from "@/assets/images/3.jpg"
-import Image6 from "@/assets/images/wed2.jpg"
+import Image6 from "@/assets/images/sc/1.jpg"
 import Image7 from "@/assets/images/wed3.jpg"
 import Image14 from "@/assets/images/sc/14.jpg"
 import Image15 from "@/assets/images/sc/16.jpg"
@@ -13,7 +13,7 @@ export const swipeDetails = [
     title_1: 'Who we are',
     title_2: "& stand for",
     subtitle: "Poised to become the leading firm in the supply of products, civil work, oil & gas support services, road & building construction and cleaning services",
-    image: Image14,
+    image: Image6,
     btnTitle: "Contact Us",
     bg: "swiperBg",
     link:'contact-us'
