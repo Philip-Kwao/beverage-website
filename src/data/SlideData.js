@@ -13,7 +13,7 @@ export const swipeDetails = [
     title_1: 'Who we are',
     title_2: "& stand for",
     subtitle: "Poised to become the leading firm in the supply of products, civil work, oil & gas support services, road & building construction and cleaning services",
-    image: Image16,
+    image: Image14,
     btnTitle: "Contact Us",
     bg: "swiperBg",
     link:'contact-us'
