@@ -1,5 +1,5 @@
 import CEO from '@/assets/images/jcl/ceo.jpeg'
-import Mary from '@/assets/images/IMG_1625.jpg'
+import Grace from '@/assets/images/IMG_1625.jpg'
 import Sam from '@/assets/images/IMG_1647.jpg'
 import Joe from '@/assets/images/IMG_1614.jpg'
 
@@ -17,7 +17,7 @@ export const teamDetails = [
     {
         id:2,
         teamName: "MARY ADU ERSKINE",
-        teamImage: Mary,
+        teamImage: null,
         teamPosition: "HUMAN RESOURCE MANAGER",
         teamQualification: "BSc. SUPPLY CHAIN MANAGEMENT",
         linkedIn: "",
@@ -27,7 +27,7 @@ export const teamDetails = [
     {
         id:3,
         teamName: "GRACE ANN TURKSON",
-        teamImage: null,
+        teamImage: Grace,
         teamPosition: "HEAD OF MARKETING",
         teamQualification: "MSc. MARKETING, BA. SOCIOLOGY, CIMG CERT. CUSTOMER SERVICE",
         linkedIn: "",
