@@ -47,7 +47,7 @@ export const teamDetails = [
     {
         id:5,
         teamName: "JOSEPH SOLOMON ANSAH",
-        teamImage: null,
+        teamImage: Joe,
         teamPosition: "ACCOUNTANT",
         teamQualification: "BBA. Accounting, HND Accounting",
         linkedIn: "",
