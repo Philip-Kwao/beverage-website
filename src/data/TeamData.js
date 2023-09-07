@@ -1,7 +1,7 @@
 import CEO from '@/assets/images/jcl/ceo.jpeg'
 import Grace from '@/assets/images/IMG_1625.jpg'
 import Sam from '@/assets/images/IMG_1647.jpg'
-import Joe from '@/assets/images/IMG_028.jpeg'
+// import Joe from '@/assets/images/IMG_028.jpeg'
 
 export const teamDetails = [ 
     {
