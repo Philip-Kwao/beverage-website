@@ -1,7 +1,6 @@
 import CEO from '@/assets/images/jcl/ceo.jpeg'
 import Grace from '@/assets/images/IMG_1625.jpg'
 import Sam from '@/assets/images/IMG_1647.jpg'
-// import Joe from '@/assets/images/IMG_028.jpeg'
 
 export const teamDetails = [ 
     {
@@ -47,7 +46,7 @@ export const teamDetails = [
     {
         id:5,
         teamName: "JOSEPH SOLOMON ANSAH",
-        teamImage: Joe,
+        teamImage: null,
         teamPosition: "ACCOUNTANT",
         teamQualification: "BBA. Accounting, HND Accounting",
         linkedIn: "",
