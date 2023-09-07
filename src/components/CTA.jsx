@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import MyLink from './MyLink'
 import Image from 'next/image'
-import CTAImage from '@/assets/images/sc/21.jpg'
+import CTAImage from '@/assets/images/IMG_1625.jpg'
 import { motion } from 'framer-motion'
 import { useEffect } from 'react';
 import { useAnimation } from 'framer-motion';
