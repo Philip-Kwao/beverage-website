@@ -9,7 +9,7 @@ export const teamDetails = [
         teamName: "JUSTICE ASAKIA APOSISSAH",
         teamImage: CEO,
         teamPosition: "C.E.O AND GENERAL MANAGER",
-        teamQualification: "BBA. ACCOUNTING, ICA PART II",
+        teamQualification: "BBA. ACCOUNTING, Msc Tax Law, policy practice",
         linkedIn: "",
         facebook: "",
         twitter: "",
@@ -56,7 +56,7 @@ export const teamDetails = [
     },
     {
         id:6,
-        teamName: "SAMUEL JONES",
+        teamName: "Shadrack Pobee",
         teamImage: Sam,
         teamPosition: "LEAD SUPERVISOR – ELECTRICAL ENGINEERING",
         teamQualification: "ECG & ENERGY COMMISSION ELECTRICAL CONTRACTOR LICENSE",
