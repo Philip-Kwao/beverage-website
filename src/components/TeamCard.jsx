@@ -18,7 +18,7 @@ const TeamCard = ({teamQualification, teamImage, teamLink, teamName, teamPositio
         >
             <Image alt='' src={teamImage} className='w-60 h-60 rounded-full object-cover group-hover:shadow-xl'/>
             <div className="flex flex-col items-center justify-between">
-                <span className='font-bold text-lg tracking-wider capitalize mt-2 group-hover:text-orange-500 duration-200 ease-in-out'>{teamName}</span>
+                <span className='font-bold text-lg tracking-wider uppercase mt-2 group-hover:text-orange-500 duration-200 ease-in-out'>{teamName}</span>
                 <span className='text-slate-400 font-semibold text-sm tracking-wide'>{teamPosition}</span>
                 <p className="text-slate-400 text-sm font-light my-4 leading-6">{teamQualification}</p>
             </div>
