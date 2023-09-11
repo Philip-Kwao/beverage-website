@@ -59,7 +59,7 @@ export const teamDetails = [
         teamName: "Shadrack Pobee",
         teamImage: Sam,
         teamPosition: "LEAD SUPERVISOR – ELECTRICAL ENGINEERING",
-        teamQualification: "ECG & ENERGY COMMISSION ELECTRICAL CONTRACTOR LICENSE",
+        teamQualification: "Bsc Project manager",
         linkedIn: "",
         facebook: "",
         twitter: "",
